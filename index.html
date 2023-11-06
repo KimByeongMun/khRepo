@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>과제1106</title>
+   <link rel="stylesheet" href="./과제_2.css">
+   <script src="./과제_2.js"></script>
+</head>
+<header>
+    <h1>KH정보교육원 스포츠 토토</h1>
+    <p>삼성라이온즈 경기에 배팅하세요.</p>
+</header>
+<nav>
+    <ul>
+        <li><a href="#">홈</a></li>
+        <li><a href="#">일정 및 결과</a></li>
+        <li><a href="#">팀 정보</a></li>
+        <li><a href="#">선수 정보</a></li>
+        <li><a href="#">배팅하기</a></li>
+    </ul>
+</nav>
+<div>
+    <section class="login-section">
+        <h2>로그인</h2>
+        <div id="login"><form>
+            <label for="username">아이디 : </label>
+            <input type="text" id="username" placeholder="아이디"><br>
+            <label for="password">비밀번호: </label>
+            <input type="password" id="password" placeholder="비밀번호">
+            <button type="submit">로그인</button>
+        </form></div>
+        <p><a href="">회원가입</a></p>
+    </section>
+</div>
+   
+
+
+<main>
+    <section id="betting">
+        <h2>배팅하기</h2>
+        <p>삼성 라이온즈 승리에 배팅하고 배당률을 확인하세요.</p>
+        <div id="bet-form">
+            <label for="game">경기 선택:</label>
+            <select id="game">
+                <option value="game1">홈경기</option>
+                <option value="game2">원정경기</option>
+                <!-- 다른 경기 추가 -->
+            </select>
+            <br>
+            <label for="amount">배팅 금액:</label>
+            <input type="number" id="amount">
+            <br>
+            <label for="odds">배당률:</label>
+            <span id="odds-display">1.50</span>
+            <br>
+            <button id="place-bet">배팅하기</button>
+        </div>
+         <!-- "만원 무료 지급" 문구 추가 -->
+    <p style="text-align: center; margin-top: 20px; font-weight: bold;">
+        <p style="font-size: large;"><b style="font-size: xx-large;">안</b> 전한 KH 스포츠 토토</p>
+        <p style="font-size: large;"><b style="font-size: xx-large;">지</b> 금 가입하면</p>
+        <p style="font-size: large;"><b style="font-size: xx-large;">만</b> Point 무료 지급 ^ㅇ^</p>
+    </p>
+    <img id="jiman" src="./안지만.jpg" alt="">
+    </section>
+</main>
+<footer>
+    배팅에 대한 모든 법적 책임은 니한테 있습니다.^ㅇ^
+</footer>
+</body>
+</html>
